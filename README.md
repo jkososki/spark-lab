@@ -1,9 +1,18 @@
 # Spark Lab
 Repo for dockerized spark cluster for training.
 
+# Build
+First, build the images.
 
+```powershell
+./build.ps1
+```
 
-
+# Launch the Cluster
+Second, launch it.
+```powershell
+docker-compose up -d
+```
 
 
 # Refs
